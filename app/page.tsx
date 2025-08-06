@@ -24,7 +24,7 @@ import { Progress } from "@/components/ui/progress";
 
 import {
   transformationOptions,
-  demoImages,
+  
   buildTransformationUrl,
 } from "@/config/imagekit";
 
