@@ -11,12 +11,13 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "next dev --turbo",
-		"build": "next build",
-		"start":  "next start -H 0.0.0.0",
+  "dev": "next dev --turbo",
+  "build": "next build",
+  "start": "PORT=${PORT:-3000} HOST=0.0.0.0 next start -p $PORT",
+  "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
+},
 
-		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
-	},
+	
 	"dependencies": {
 		"@imagekit/next": "^2.1.2",
 		"@nextui-org/avatar": "^2.0.31",
