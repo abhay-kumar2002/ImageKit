@@ -54,7 +54,7 @@ yarn-error.log*
 /.Zerepy
 
 # env files (can opt-in for committing if needed)
-.env.local
+
 hardhat.config.js
 # vercel
 .vercel
