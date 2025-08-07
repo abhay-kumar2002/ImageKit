@@ -13,7 +13,7 @@
 	"scripts": {
   "dev": "next dev --turbo",
   "build": "next build",
-  "start": "PORT=${PORT:-3000} HOST=0.0.0.0 next start -p $PORT",
+  "start": " HOST=0.0.0.0 next start -p $PORT",
   "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 },
 
